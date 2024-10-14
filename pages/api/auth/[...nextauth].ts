@@ -18,7 +18,7 @@ export default NextAuth({
         httpOnly: true,
         sameSite: 'lax',
         path: '/',
-        domain: '.solutions-subdomain-auth.vercel.sh',
+        domain: '.hemant-e.vercel.app',
         secure: useSecureCookies,
       },
     },
